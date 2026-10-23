@@ -3,12 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>О себе</title>
+    <title>О себе - Бокор Евгений</title>
     <link rel="stylesheet" href="stylelab3.css">
 </head>
 <body>
+
     <header>
-        <h1 style="font-weight: 700;">Бокор Евгений</h1>
+        <h1>Бокор Евгений</h1>
         <p>Любитель кино и сериалов</p>
         <nav>
             <ul>
@@ -21,15 +22,15 @@
     </header>
 
     <main>
-        <div class="img-box">
-            <img src="image/photo.jpg" alt="Я" width="777" height="200">
+        <section class="img-box">
+            <img src="cinema.jpg" alt="Cinema">
             <span class="badge">Cinema</span>
-        </div>
+        </section>
 
         <section id="skills">
             <h2>Навыки</h2>
             <ul>
-                <li class="static-pos">Сценарный анализ</li>
+                <li>Сценарный анализ</li>
                 <li>Импровизация</li>
                 <li>Анализ графики</li>
             </ul>
@@ -38,42 +39,42 @@
         <section id="films">
             <h2>Топ фильмов для просмотра</h2>
             <div class="cards">
-                <article class="card">
-                    <img src="image/poster1.jpg" alt="Постер фильма «Зелёный фонарь»" width="80" height="120">
+                <div class="card">
+                    <img src="green-lantern.jpg" alt="Зелёный фонарь">
                     <div>
                         <h3>Зелёный фонарь</h3>
                         <p>Альтернативный сценарий</p>
                         <p>Жанр: фантастика</p>
-                        <p>Год: <time datetime="2011">2011</time></p>
+                        <p>Год: 2011</p>
                     </div>
-                </article>
-                <article class="card">
-                    <img src="image/poster2.jpg" alt="Постер фильма «Всеведущий читатель»" width="80" height="120">
+                </div>
+                <div class="card">
+                    <img src="allseeing.jpg" alt="Всеведущий читатель">
                     <div>
                         <h3>Всеведущий читатель</h3>
                         <p>Трейлер сериала</p>
                         <p>Жанр: фэнтези</p>
-                        <p>Год: <time datetime="2025">2025</time></p>
+                        <p>Год: 2025</p>
                     </div>
-                </article>
-                <article class="card">
-                    <img src="image/poster3.jpg" alt="Постер фильма «Живая сталь»" width="80" height="120">
+                </div>
+                <div class="card">
+                    <img src="real-steel.jpg" alt="Живая сталь">
                     <div>
                         <h3>Живая сталь</h3>
                         <p>Продолжение франшизы</p>
                         <p>Жанр: фантастика</p>
-                        <p>Год: <time datetime="2011">2011</time></p>
+                        <p>Год: 2011</p>
                     </div>
-                </article>
-                <article class="card">
-                    <img src="image/poster4.jpg" alt="Постер фильма «Колобок»" width="80" height="120">
+                </div>
+                <div class="card">
+                    <img src="kolobok.jpg" alt="Колобок">
                     <div>
                         <h3>Колобок</h3>
                         <p>Трейлер конкурент человека-паука</p>
                         <p>Жанр: мультфильм</p>
-                        <p>Год: <time datetime="2026">2026</time></p>
+                        <p>Год: 2026</p>
                     </div>
-                </article>
+                </div>
             </div>
         </section>
 
@@ -81,64 +82,53 @@
             <h2>Любимые режиссёры</h2>
             <div class="gallery">
                 <figure>
-                    <img src="image/director1.jpg" alt="Кристофер Нолан">
-                    <figcaption>
-                        <strong>Кристофер Нолан</strong><br>
-                        Знаковый фильм: «Начало»
-                    </figcaption>
+                    <img src="nolan.jpg" alt="Кристофер Нолан">
+                    <figcaption>Кристофер Нолан<br>Знаковый фильм: «Начало»</figcaption>
                 </figure>
                 <figure>
-                    <img src="image/director2.jpg" alt="Дени Вильнёв">
-                    <figcaption>
-                        <strong>Дени Вильнёв</strong><br>
-                        Знаковый фильм: «Дюна»
-                    </figcaption>
+                    <img src="villeneuve.jpg" alt="Дени Вильнёв">
+                    <figcaption>Дени Вильнёв<br>Знаковый фильм: «Дюна»</figcaption>
                 </figure>
                 <figure>
-                    <img src="image/director3.jpg" alt="Питер Джексон">
-                    <figcaption>
-                        <strong>Питер Джексон</strong><br>
-                        Знаковый фильм: «Властелин колец»
-                    </figcaption>
+                    <img src="jackson.jpg" alt="Питер Джексон">
+                    <figcaption>Питер Джексон<br>Знаковый фильм: «Властелин колец»</figcaption>
                 </figure>
                 <figure>
-                    <img src="image/director4.jpg" alt="Джеймс Кэмерон">
-                    <figcaption>
-                        <strong>Джеймс Кэмерон</strong><br>
-                        Знаковый фильм: «Аватар»
-                    </figcaption>
+                    <img src="cameron.jpg" alt="Джеймс Кэмерон">
+                    <figcaption>Джеймс Кэмерон<br>Знаковый фильм: «Аватар»</figcaption>
                 </figure>
             </div>
         </section>
 
         <section id="contact">
             <h2>Обратная связь</h2>
-            <form>
+            <form action="#" method="post">
                 <div class="form-group">
                     <label for="name">Имя:</label>
-                    <input type="text" id="name" name="name">
+                    <input type="text" id="name" name="name" required>
                 </div>
                 <div class="form-group">
                     <label for="email">Email:</label>
-                    <input type="email" id="email" name="email">
+                    <input type="email" id="email" name="email" required>
                 </div>
                 <div class="form-group">
                     <label for="message">Сообщение:</label>
-                    <textarea id="message" name="message"></textarea>
+                    <textarea id="message" name="message" rows="4" required></textarea>
                 </div>
                 <button type="submit">Отправить</button>
             </form>
         </section>
-    </main>
 
-    <aside>
-        <h3>Любимые жанры</h3>
-        <p>Фэнтези и фантастика</p>
-    </aside>
+        <aside>
+            <h3>Любимые жанры</h3>
+            <p>Фэнтези и фантастика</p>
+        </aside>
+    </main>
 
     <footer>
         <p>&copy; 2026 Бокор Евгений</p>
         <a href="#">Главная</a>
     </footer>
+
 </body>
 </html>
